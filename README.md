@@ -12,3 +12,6 @@ Install Python:
 Installing the necessary Python libraries:
 
 ```pip3 install web3 eth-account```
+
+
+!!!during gaswars requires a significant amount of ETH on the balance sheet!!!
