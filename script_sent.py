@@ -9,7 +9,7 @@ PRIVATE_KEY = "private_key"
 FROM_ADDRESS = Web3.to_checksum_address("evm_wallet")
 CONTRACT_ADDRESS = Web3.to_checksum_address("0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2")
 CHAIN_ID = 11155111
-TARGET_TIMESTAMP = <timestamp>
+TARGET_TIMESTAMP = timestamp
 
 PREPARE_AT = TARGET_TIMESTAMP - 20  
 SEND_AT = TARGET_TIMESTAMP - 8      
