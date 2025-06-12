@@ -47,7 +47,7 @@ print(f"[{datetime.utcnow()}] Transaction preparation...")
 
 # Preliminary data
 contract = w3.eth.contract(address=CONTRACT_ADDRESS, abi=contract_abi)
-nonce = w3.eth.get_transaction_count(FROM_ADDRESS)
+nonce = w3.eth.get_transaction_count(FROM_ADDRESS, "pending")
 
 # Waiting to be send
 while time.time() < SEND_AT:
